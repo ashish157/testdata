@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mobitv="urn:mobitv" xmlns="urn:mpeg:dash:schema:mpd:2011" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" XMobitvSegmentTimeline="true" xmlns:scte35="urn:scte:scte35:2014:xml+bin" profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:com:dashif:dash264,http://dashif.org/guidelines/adin/app" maxSegmentDuration="PT9S" minBufferTime="PT2S" type="dynamic" timeShiftBufferDepth="PT20M" minimumUpdatePeriod="PT9S" availabilityStartTime="1970-01-01T00:00:22Z" suggestedPresentationDelay="PT12S" id="5107" publishTime="2023-02-15T00:45:04Z">
+   <ProgramInformation>
+      <Title>Media Presentation Description by MobiTV.</Title>
+   </ProgramInformation>
+   <Period mobitv:publishTime="2023-02-15T00:42:46Z" start="PT465672H20M32.557S" id="P1136">
+      <AdaptationSet contentType="video" mimeType="video/mp4" mobitv:qualityLevel="SD" segmentAlignment="true" startWithSAP="1" par="16:9" minWidth="640" maxWidth="1280" minHeight="360" maxHeight="720" maxFrameRate="120/2">
+         <Accessibility schemeIdUri="urn:scte:dash:cc:cea-608:2015" value=""/>
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+         <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine: SD"/>
+         <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="Playready: SD"/>
+         <Representation id="V2200_W" codecs="avc1.4d401f" bandwidth="2384800" mobitv:average-bandwidth="2188618" mobitv:peak-bandwidth="2322924" width="960" height="540" frameRate="60/2" sar="1:1">
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="90000" presentationTimeOffset="150877839045000">
+               <SegmentTimeline>
+                  <S t="150877863000000" r="51" d="540000" mobitv:s="279403450"/>
+                  <S d="609000" mobitv:s="279403502"/>
+                  <S d="471000" mobitv:s="279403503"/>
+                  <S r="2" d="540000" mobitv:s="279403504"/>
+                  <S d="612000" mobitv:s="279403507"/>
+                  <S d="468000" mobitv:s="279403508"/>
+                  <S r="32" d="540000" mobitv:s="279403509"/>
+                  <S d="615000" mobitv:s="279403542"/>
+                  <S d="465000" mobitv:s="279403543"/>
+                  <S r="82" d="540000" mobitv:s="279403544"/>
+                  <S d="333000" mobitv:s="279403627"/>
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+         <Representation id="V5000_W" codecs="avc1.640028" bandwidth="5120000" mobitv:average-bandwidth="4969330" mobitv:peak-bandwidth="5247665" width="1280" height="720" frameRate="120/2" sar="1:1">
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="90000" presentationTimeOffset="150877839045000">
+               <SegmentTimeline>
+                  <S t="150877863001500" r="51" d="540000" mobitv:s="279403450"/>
+                  <S d="607500" mobitv:s="279403502"/>
+                  <S d="472500" mobitv:s="279403503"/>
+                  <S r="2" d="540000" mobitv:s="279403504"/>
+                  <S d="610500" mobitv:s="279403507"/>
+                  <S d="469500" mobitv:s="279403508"/>
+                  <S r="32" d="540000" mobitv:s="279403509"/>
+                  <S d="613500" mobitv:s="279403542"/>
+                  <S d="466500" mobitv:s="279403543"/>
+                  <S r="82" d="540000" mobitv:s="279403544"/>
+                  <S d="333000" mobitv:s="279403627"/>
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+         <Representation id="V864_W" codecs="avc1.4d401e" bandwidth="884736" mobitv:average-bandwidth="867557" mobitv:peak-bandwidth="932798" width="640" height="360" frameRate="60/2" sar="1:1">
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="90000" presentationTimeOffset="150877839045000">
+               <SegmentTimeline>
+                  <S t="150877863000000" r="51" d="540000" mobitv:s="279403450"/>
+                  <S d="609000" mobitv:s="279403502"/>
+                  <S d="471000" mobitv:s="279403503"/>
+                  <S r="2" d="540000" mobitv:s="279403504"/>
+                  <S d="612000" mobitv:s="279403507"/>
+                  <S d="468000" mobitv:s="279403508"/>
+                  <S r="32" d="540000" mobitv:s="279403509"/>
+                  <S d="615000" mobitv:s="279403542"/>
+                  <S d="465000" mobitv:s="279403543"/>
+                  <S r="82" d="540000" mobitv:s="279403544"/>
+                  <S d="333000" mobitv:s="279403627"/>
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+      </AdaptationSet>
+      <AdaptationSet contentType="audio" mimeType="audio/mp4" lang="eng" mobitv:qualityLevel="SD" segmentAlignment="true" startWithSAP="1">
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+         <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine: SD"/>
+         <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="Playready: SD"/>
+         <Representation id="A96_ENG" codecs="mp4a.40.5" bandwidth="98304" mobitv:average-bandwidth="101357" mobitv:peak-bandwidth="102246" audioSamplingRate="48000">
+            <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="24000" presentationTimeOffset="40234090412000">
+               <SegmentTimeline>
+                  <S t="40234096799712" r="1" d="144384" mobitv:s="279403450"/>
+                  <S d="143360" mobitv:s="279403452"/>
+                  <S d="144384" mobitv:s="279403453"/>
+                  <S d="143360" mobitv:s="279403454"/>
+                  <S r="1" d="144384" mobitv:s="279403455"/>
+                  <S d="143360" mobitv:s="279403457"/>
+                  <S r="1" d="144384" mobitv:s="279403458"/>
+                  <S d="143360" mobitv:s="279403460"/>
+                  <S d="144384" mobitv:s="279403461"/>
+                  <S d="143360" mobitv:s="279403462"/>
+                  <S r="1" d="144384" mobitv:s="279403463"/>
+                  <S d="143360" mobitv:s="279403465"/>
+                  <S r="1" d="144384" mobitv:s="279403466"/>
+                  <S d="143360" mobitv:s="279403468"/>
+                  <S d="144384" mobitv:s="279403469"/>
+                  <S d="143360" mobitv:s="279403470"/>
+                  <S r="1" d="144384" mobitv:s="279403471"/>
+                  <S d="143360" mobitv:s="279403473"/>
+                  <S r="1" d="144384" mobitv:s="279403474"/>
+                  <S d="143360" mobitv:s="279403476"/>
+                  <S d="144384" mobitv:s="279403477"/>
+                  <S d="143360" mobitv:s="279403478"/>
+                  <S r="1" d="144384" mobitv:s="279403479"/>
+                  <S d="143360" mobitv:s="279403481"/>
+                  <S r="1" d="144384" mobitv:s="279403482"/>
+                  <S d="143360" mobitv:s="279403484"/>
+                  <S d="144384" mobitv:s="279403485"/>
+                  <S d="143360" mobitv:s="279403486"/>
+                  <S r="1" d="144384" mobitv:s="279403487"/>
+                  <S d="143360" mobitv:s="279403489"/>
+                  <S r="1" d="144384" mobitv:s="279403490"/>
+                  <S d="143360" mobitv:s="279403492"/>
+                  <S d="144384" mobitv:s="279403493"/>
+                  <S d="143360" mobitv:s="279403494"/>
+                  <S r="1" d="144384" mobitv:s="279403495"/>
+                  <S d="143360" mobitv:s="279403497"/>
+                  <S r="1" d="144384" mobitv:s="279403498"/>
+                  <S d="143360" mobitv:s="279403500"/>
+                  <S d="144384" mobitv:s="279403501"/>
+                  <S d="161792" mobitv:s="279403502"/>
+                  <S d="125952" mobitv:s="279403503"/>
+                  <S d="144384" mobitv:s="279403504"/>
+                  <S d="143360" mobitv:s="279403505"/>
+                  <S d="144384" mobitv:s="279403506"/>
+                  <S d="162816" mobitv:s="279403507"/>
+                  <S d="124928" mobitv:s="279403508"/>
+                  <S d="144384" mobitv:s="279403509"/>
+                  <S d="143360" mobitv:s="279403510"/>
+                  <S r="1" d="144384" mobitv:s="279403511"/>
+                  <S d="143360" mobitv:s="279403513"/>
+                  <S r="1" d="144384" mobitv:s="279403514"/>
+                  <S d="143360" mobitv:s="279403516"/>
+                  <S d="144384" mobitv:s="279403517"/>
+                  <S d="143360" mobitv:s="279403518"/>
+                  <S r="1" d="144384" mobitv:s="279403519"/>
+                  <S d="143360" mobitv:s="279403521"/>
+                  <S r="1" d="144384" mobitv:s="279403522"/>
+                  <S d="143360" mobitv:s="279403524"/>
+                  <S d="144384" mobitv:s="279403525"/>
+                  <S d="143360" mobitv:s="279403526"/>
+                  <S r="1" d="144384" mobitv:s="279403527"/>
+                  <S d="143360" mobitv:s="279403529"/>
+                  <S r="1" d="144384" mobitv:s="279403530"/>
+                  <S d="143360" mobitv:s="279403532"/>
+                  <S d="144384" mobitv:s="279403533"/>
+                  <S d="143360" mobitv:s="279403534"/>
+                  <S r="1" d="144384" mobitv:s="279403535"/>
+                  <S d="143360" mobitv:s="279403537"/>
+                  <S r="1" d="144384" mobitv:s="279403538"/>
+                  <S d="143360" mobitv:s="279403540"/>
+                  <S d="144384" mobitv:s="279403541"/>
+                  <S d="163840" mobitv:s="279403542"/>
+                  <S d="123904" mobitv:s="279403543"/>
+                  <S d="144384" mobitv:s="279403544"/>
+                  <S d="143360" mobitv:s="279403545"/>
+                  <S r="1" d="144384" mobitv:s="279403546"/>
+                  <S d="143360" mobitv:s="279403548"/>
+                  <S d="144384" mobitv:s="279403549"/>
+                  <S d="143360" mobitv:s="279403550"/>
+                  <S r="1" d="144384" mobitv:s="279403551"/>
+                  <S d="143360" mobitv:s="279403553"/>
+                  <S r="1" d="144384" mobitv:s="279403554"/>
+                  <S d="143360" mobitv:s="279403556"/>
+                  <S d="144384" mobitv:s="279403557"/>
+                  <S d="143360" mobitv:s="279403558"/>
+                  <S r="1" d="144384" mobitv:s="279403559"/>
+                  <S d="143360" mobitv:s="279403561"/>
+                  <S r="1" d="144384" mobitv:s="279403562"/>
+                  <S d="143360" mobitv:s="279403564"/>
+                  <S d="144384" mobitv:s="279403565"/>
+                  <S d="143360" mobitv:s="279403566"/>
+                  <S r="1" d="144384" mobitv:s="279403567"/>
+                  <S d="143360" mobitv:s="279403569"/>
+                  <S r="1" d="144384" mobitv:s="279403570"/>
+                  <S d="143360" mobitv:s="279403572"/>
+                  <S d="144384" mobitv:s="279403573"/>
+                  <S d="143360" mobitv:s="279403574"/>
+                  <S r="1" d="144384" mobitv:s="279403575"/>
+                  <S d="143360" mobitv:s="279403577"/>
+                  <S r="1" d="144384" mobitv:s="279403578"/>
+                  <S d="143360" mobitv:s="279403580"/>
+                  <S d="144384" mobitv:s="279403581"/>
+                  <S d="143360" mobitv:s="279403582"/>
+                  <S r="1" d="144384" mobitv:s="279403583"/>
+                  <S d="143360" mobitv:s="279403585"/>
+                  <S r="1" d="144384" mobitv:s="279403586"/>
+                  <S d="143360" mobitv:s="279403588"/>
+                  <S d="144384" mobitv:s="279403589"/>
+                  <S d="143360" mobitv:s="279403590"/>
+                  <S r="1" d="144384" mobitv:s="279403591"/>
+                  <S d="143360" mobitv:s="279403593"/>
+                  <S r="1" d="144384" mobitv:s="279403594"/>
+                  <S d="143360" mobitv:s="279403596"/>
+                  <S d="144384" mobitv:s="279403597"/>
+                  <S d="143360" mobitv:s="279403598"/>
+                  <S r="1" d="144384" mobitv:s="279403599"/>
+                  <S d="143360" mobitv:s="279403601"/>
+                  <S r="1" d="144384" mobitv:s="279403602"/>
+                  <S d="143360" mobitv:s="279403604"/>
+                  <S d="144384" mobitv:s="279403605"/>
+                  <S d="143360" mobitv:s="279403606"/>
+                  <S r="1" d="144384" mobitv:s="279403607"/>
+                  <S d="143360" mobitv:s="279403609"/>
+                  <S r="1" d="144384" mobitv:s="279403610"/>
+                  <S d="143360" mobitv:s="279403612"/>
+                  <S d="144384" mobitv:s="279403613"/>
+                  <S d="143360" mobitv:s="279403614"/>
+                  <S r="1" d="144384" mobitv:s="279403615"/>
+                  <S d="143360" mobitv:s="279403617"/>
+                  <S r="1" d="144384" mobitv:s="279403618"/>
+                  <S d="143360" mobitv:s="279403620"/>
+                  <S d="144384" mobitv:s="279403621"/>
+                  <S d="143360" mobitv:s="279403622"/>
+                  <S r="1" d="144384" mobitv:s="279403623"/>
+                  <S d="143360" mobitv:s="279403625"/>
+                  <S d="144384" mobitv:s="279403626"/>
+                  <S d="89088" mobitv:s="279403627"/>
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+         <InbandEventStream schemeIdUri="urn:mobitv:event" value="id3"/>
+      </AdaptationSet>
+      <AdaptationSet contentType="audio" mimeType="audio/mp4" lang="eng" mobitv:qualityLevel="SD" segmentAlignment="true" startWithSAP="1">
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+         <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine: SD"/>
+         <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="Playready: SD"/>
+         <Representation id="A384_ENG" codecs="ac-3" bandwidth="384000" mobitv:average-bandwidth="390502" mobitv:peak-bandwidth="390610" audioSamplingRate="48000">
+            <AudioChannelConfiguration schemeIdUri="tag:dolby.com,2014:dash:audio_channel_configuration:2011" value="F801"/>
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="48000" presentationTimeOffset="80468180824736">
+               <SegmentTimeline>
+                  <S t="80468193599648" d="288768" mobitv:s="279403450"/>
+                  <S d="287232" mobitv:s="279403451"/>
+                  <S d="288768" mobitv:s="279403452"/>
+                  <S d="287232" mobitv:s="279403453"/>
+                  <S d="288768" mobitv:s="279403454"/>
+                  <S d="287232" mobitv:s="279403455"/>
+                  <S d="288768" mobitv:s="279403456"/>
+                  <S d="287232" mobitv:s="279403457"/>
+                  <S d="288768" mobitv:s="279403458"/>
+                  <S d="287232" mobitv:s="279403459"/>
+                  <S d="288768" mobitv:s="279403460"/>
+                  <S d="287232" mobitv:s="279403461"/>
+                  <S d="288768" mobitv:s="279403462"/>
+                  <S d="287232" mobitv:s="279403463"/>
+                  <S d="288768" mobitv:s="279403464"/>
+                  <S d="287232" mobitv:s="279403465"/>
+                  <S d="288768" mobitv:s="279403466"/>
+                  <S d="287232" mobitv:s="279403467"/>
+                  <S d="288768" mobitv:s="279403468"/>
+                  <S d="287232" mobitv:s="279403469"/>
+                  <S d="288768" mobitv:s="279403470"/>
+                  <S d="287232" mobitv:s="279403471"/>
+                  <S d="288768" mobitv:s="279403472"/>
+                  <S d="287232" mobitv:s="279403473"/>
+                  <S d="288768" mobitv:s="279403474"/>
+                  <S d="287232" mobitv:s="279403475"/>
+                  <S d="288768" mobitv:s="279403476"/>
+                  <S d="287232" mobitv:s="279403477"/>
+                  <S d="288768" mobitv:s="279403478"/>
+                  <S d="287232" mobitv:s="279403479"/>
+                  <S d="288768" mobitv:s="279403480"/>
+                  <S d="287232" mobitv:s="279403481"/>
+                  <S d="288768" mobitv:s="279403482"/>
+                  <S d="287232" mobitv:s="279403483"/>
+                  <S d="288768" mobitv:s="279403484"/>
+                  <S d="287232" mobitv:s="279403485"/>
+                  <S d="288768" mobitv:s="279403486"/>
+                  <S d="287232" mobitv:s="279403487"/>
+                  <S d="288768" mobitv:s="279403488"/>
+                  <S d="287232" mobitv:s="279403489"/>
+                  <S d="288768" mobitv:s="279403490"/>
+                  <S d="287232" mobitv:s="279403491"/>
+                  <S d="288768" mobitv:s="279403492"/>
+                  <S d="287232" mobitv:s="279403493"/>
+                  <S d="288768" mobitv:s="279403494"/>
+                  <S d="287232" mobitv:s="279403495"/>
+                  <S d="288768" mobitv:s="279403496"/>
+                  <S d="287232" mobitv:s="279403497"/>
+                  <S d="288768" mobitv:s="279403498"/>
+                  <S d="287232" mobitv:s="279403499"/>
+                  <S d="288768" mobitv:s="279403500"/>
+                  <S d="287232" mobitv:s="279403501"/>
+                  <S d="325632" mobitv:s="279403502"/>
+                  <S d="250368" mobitv:s="279403503"/>
+                  <S d="288768" mobitv:s="279403504"/>
+                  <S d="287232" mobitv:s="279403505"/>
+                  <S d="288768" mobitv:s="279403506"/>
+                  <S d="325632" mobitv:s="279403507"/>
+                  <S d="250368" mobitv:s="279403508"/>
+                  <S d="287232" mobitv:s="279403509"/>
+                  <S d="288768" mobitv:s="279403510"/>
+                  <S d="287232" mobitv:s="279403511"/>
+                  <S d="288768" mobitv:s="279403512"/>
+                  <S d="287232" mobitv:s="279403513"/>
+                  <S d="288768" mobitv:s="279403514"/>
+                  <S d="287232" mobitv:s="279403515"/>
+                  <S d="288768" mobitv:s="279403516"/>
+                  <S d="287232" mobitv:s="279403517"/>
+                  <S d="288768" mobitv:s="279403518"/>
+                  <S d="287232" mobitv:s="279403519"/>
+                  <S d="288768" mobitv:s="279403520"/>
+                  <S d="287232" mobitv:s="279403521"/>
+                  <S d="288768" mobitv:s="279403522"/>
+                  <S d="287232" mobitv:s="279403523"/>
+                  <S d="288768" mobitv:s="279403524"/>
+                  <S d="287232" mobitv:s="279403525"/>
+                  <S d="288768" mobitv:s="279403526"/>
+                  <S d="287232" mobitv:s="279403527"/>
+                  <S d="288768" mobitv:s="279403528"/>
+                  <S d="287232" mobitv:s="279403529"/>
+                  <S d="288768" mobitv:s="279403530"/>
+                  <S d="287232" mobitv:s="279403531"/>
+                  <S d="288768" mobitv:s="279403532"/>
+                  <S d="287232" mobitv:s="279403533"/>
+                  <S d="288768" mobitv:s="279403534"/>
+                  <S d="287232" mobitv:s="279403535"/>
+                  <S d="288768" mobitv:s="279403536"/>
+                  <S d="287232" mobitv:s="279403537"/>
+                  <S d="288768" mobitv:s="279403538"/>
+                  <S d="287232" mobitv:s="279403539"/>
+                  <S d="288768" mobitv:s="279403540"/>
+                  <S d="287232" mobitv:s="279403541"/>
+                  <S d="328704" mobitv:s="279403542"/>
+                  <S d="247296" mobitv:s="279403543"/>
+                  <S d="288768" mobitv:s="279403544"/>
+                  <S d="287232" mobitv:s="279403545"/>
+                  <S d="288768" mobitv:s="279403546"/>
+                  <S d="287232" mobitv:s="279403547"/>
+                  <S d="288768" mobitv:s="279403548"/>
+                  <S d="287232" mobitv:s="279403549"/>
+                  <S d="288768" mobitv:s="279403550"/>
+                  <S d="287232" mobitv:s="279403551"/>
+                  <S d="288768" mobitv:s="279403552"/>
+                  <S d="287232" mobitv:s="279403553"/>
+                  <S d="288768" mobitv:s="279403554"/>
+                  <S d="287232" mobitv:s="279403555"/>
+                  <S d="288768" mobitv:s="279403556"/>
+                  <S d="287232" mobitv:s="279403557"/>
+                  <S d="288768" mobitv:s="279403558"/>
+                  <S d="287232" mobitv:s="279403559"/>
+                  <S d="288768" mobitv:s="279403560"/>
+                  <S d="287232" mobitv:s="279403561"/>
+                  <S d="288768" mobitv:s="279403562"/>
+                  <S d="287232" mobitv:s="279403563"/>
+                  <S d="288768" mobitv:s="279403564"/>
+                  <S d="287232" mobitv:s="279403565"/>
+                  <S d="288768" mobitv:s="279403566"/>
+                  <S d="287232" mobitv:s="279403567"/>
+                  <S d="288768" mobitv:s="279403568"/>
+                  <S d="287232" mobitv:s="279403569"/>
+                  <S d="288768" mobitv:s="279403570"/>
+                  <S d="287232" mobitv:s="279403571"/>
+                  <S d="288768" mobitv:s="279403572"/>
+                  <S d="287232" mobitv:s="279403573"/>
+                  <S d="288768" mobitv:s="279403574"/>
+                  <S d="287232" mobitv:s="279403575"/>
+                  <S d="288768" mobitv:s="279403576"/>
+                  <S d="287232" mobitv:s="279403577"/>
+                  <S d="288768" mobitv:s="279403578"/>
+                  <S d="287232" mobitv:s="279403579"/>
+                  <S d="288768" mobitv:s="279403580"/>
+                  <S d="287232" mobitv:s="279403581"/>
+                  <S d="288768" mobitv:s="279403582"/>
+                  <S d="287232" mobitv:s="279403583"/>
+                  <S d="288768" mobitv:s="279403584"/>
+                  <S d="287232" mobitv:s="279403585"/>
+                  <S d="288768" mobitv:s="279403586"/>
+                  <S d="287232" mobitv:s="279403587"/>
+                  <S d="288768" mobitv:s="279403588"/>
+                  <S d="287232" mobitv:s="279403589"/>
+                  <S d="288768" mobitv:s="279403590"/>
+                  <S d="287232" mobitv:s="279403591"/>
+                  <S d="288768" mobitv:s="279403592"/>
+                  <S d="287232" mobitv:s="279403593"/>
+                  <S d="288768" mobitv:s="279403594"/>
+                  <S d="287232" mobitv:s="279403595"/>
+                  <S d="288768" mobitv:s="279403596"/>
+                  <S d="287232" mobitv:s="279403597"/>
+                  <S d="288768" mobitv:s="279403598"/>
+                  <S d="287232" mobitv:s="279403599"/>
+                  <S d="288768" mobitv:s="279403600"/>
+                  <S d="287232" mobitv:s="279403601"/>
+                  <S d="288768" mobitv:s="279403602"/>
+                  <S d="287232" mobitv:s="279403603"/>
+                  <S d="288768" mobitv:s="279403604"/>
+                  <S d="287232" mobitv:s="279403605"/>
+                  <S d="288768" mobitv:s="279403606"/>
+                  <S d="287232" mobitv:s="279403607"/>
+                  <S d="288768" mobitv:s="279403608"/>
+                  <S d="287232" mobitv:s="279403609"/>
+                  <S d="288768" mobitv:s="279403610"/>
+                  <S d="287232" mobitv:s="279403611"/>
+                  <S d="288768" mobitv:s="279403612"/>
+                  <S d="287232" mobitv:s="279403613"/>
+                  <S d="288768" mobitv:s="279403614"/>
+                  <S d="287232" mobitv:s="279403615"/>
+                  <S d="288768" mobitv:s="279403616"/>
+                  <S d="287232" mobitv:s="279403617"/>
+                  <S d="288768" mobitv:s="279403618"/>
+                  <S d="287232" mobitv:s="279403619"/>
+                  <S d="288768" mobitv:s="279403620"/>
+                  <S d="287232" mobitv:s="279403621"/>
+                  <S d="288768" mobitv:s="279403622"/>
+                  <S d="287232" mobitv:s="279403623"/>
+                  <S d="288768" mobitv:s="279403624"/>
+                  <S d="287232" mobitv:s="279403625"/>
+                  <S d="288768" mobitv:s="279403626"/>
+                  <S d="176640" mobitv:s="279403627"/>
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+         <InbandEventStream schemeIdUri="urn:mobitv:event" value="id3"/>
+      </AdaptationSet>
+   </Period>
+   <Period mobitv:publishTime="2023-02-15T00:44:16Z" start="PT465672H42M44.421S" id="P1137">
+      <EventStream schemeIdUri="urn:scte:scte35:2014:xml+bin" timescale="90000">
+         <Event id="1676421733" presentationTime="150877958915172" duration="8100000" mobitv:segmentDts="150877958913000" mobitv:segmentDuration="333000">
+            <scte35:Signal>
+               <scte35:Binary>/DAlAAAAAAAAAP/wFAVj7Cplf+//AxGMTv4Ae5igAAAAAAAAESx/YA==</scte35:Binary>
+            </scte35:Signal>
+         </Event>
+      </EventStream>
+      <AdaptationSet contentType="video" mimeType="video/mp4" mobitv:qualityLevel="SD" segmentAlignment="true" startWithSAP="1" par="16:9" minWidth="640" maxWidth="1280" minHeight="360" maxHeight="720" maxFrameRate="120/2">
+         <Accessibility schemeIdUri="urn:scte:dash:cc:cea-608:2015" value=""/>
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+         <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine: SD"/>
+         <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="Playready: SD"/>
+         <Representation id="V2200_W" codecs="avc1.4d401f" bandwidth="2384800" mobitv:average-bandwidth="0" mobitv:peak-bandwidth="0" width="960" height="540" frameRate="60/2" sar="1:1">
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="90000" presentationTimeOffset="150877958913000">
+               <SegmentTimeline>
+                  <S t="150877958913000" d="747000" mobitv:s="279403628"/>
+                  <S r="12" d="540000" mobitv:s="279403629"/>
+                  <S d="336000" mobitv:s="279403642"/>
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+         <Representation id="V5000_W" codecs="avc1.640028" bandwidth="5120000" mobitv:average-bandwidth="0" mobitv:peak-bandwidth="0" width="1280" height="720" frameRate="120/2" sar="1:1">
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="90000" presentationTimeOffset="150877958913000">
+               <SegmentTimeline>
+                  <S t="150877958914500" d="747000" mobitv:s="279403628"/>
+                  <S r="12" d="540000" mobitv:s="279403629"/>
+                  <S d="336000" mobitv:s="279403642"/>
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+         <Representation id="V864_W" codecs="avc1.4d401e" bandwidth="884736" mobitv:average-bandwidth="0" mobitv:peak-bandwidth="0" width="640" height="360" frameRate="60/2" sar="1:1">
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="90000" presentationTimeOffset="150877958913000">
+               <SegmentTimeline>
+                  <S t="150877958913000" d="747000" mobitv:s="279403628"/>
+                  <S r="12" d="540000" mobitv:s="279403629"/>
+                  <S d="336000" mobitv:s="279403642"/>
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+      </AdaptationSet>
+      <AdaptationSet contentType="audio" mimeType="audio/mp4" lang="eng" mobitv:qualityLevel="SD" segmentAlignment="true" startWithSAP="1">
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+         <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine: SD"/>
+         <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="Playready: SD"/>
+         <Representation id="A96_ENG" codecs="mp4a.40.5" bandwidth="98304" mobitv:average-bandwidth="0" mobitv:peak-bandwidth="0" audioSamplingRate="48000">
+            <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="24000" presentationTimeOffset="40234122377184">
+               <SegmentTimeline>
+                  <S t="40234122377184" d="198656" mobitv:s="279403628"/>
+                  <S d="144384" mobitv:s="279403629"/>
+                  <S d="143360" mobitv:s="279403630"/>
+                  <S r="1" d="144384" mobitv:s="279403631"/>
+                  <S d="143360" mobitv:s="279403633"/>
+                  <S r="1" d="144384" mobitv:s="279403634"/>
+                  <S d="143360" mobitv:s="279403636"/>
+                  <S d="144384" mobitv:s="279403637"/>
+                  <S d="143360" mobitv:s="279403638"/>
+                  <S r="1" d="144384" mobitv:s="279403639"/>
+                  <S d="143360" mobitv:s="279403641"/>
+                  <S d="90112" mobitv:s="279403642"/>
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+         <InbandEventStream schemeIdUri="urn:mobitv:event" value="id3"/>
+      </AdaptationSet>
+      <AdaptationSet contentType="audio" mimeType="audio/mp4" lang="eng" mobitv:qualityLevel="SD" segmentAlignment="true" startWithSAP="1">
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+         <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine: SD"/>
+         <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="Playready: SD"/>
+         <Representation id="A384_ENG" codecs="ac-3" bandwidth="384000" mobitv:average-bandwidth="0" mobitv:peak-bandwidth="0" audioSamplingRate="48000">
+            <AudioChannelConfiguration schemeIdUri="tag:dolby.com,2014:dash:audio_channel_configuration:2011" value="F801"/>
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="48000" presentationTimeOffset="80468244753056">
+               <SegmentTimeline>
+                  <S t="80468244753056" d="399360" mobitv:s="279403628"/>
+                  <S d="287232" mobitv:s="279403629"/>
+                  <S d="288768" mobitv:s="279403630"/>
+                  <S d="287232" mobitv:s="279403631"/>
+                  <S d="288768" mobitv:s="279403632"/>
+                  <S d="287232" mobitv:s="279403633"/>
+                  <S d="288768" mobitv:s="279403634"/>
+                  <S d="287232" mobitv:s="279403635"/>
+                  <S d="288768" mobitv:s="279403636"/>
+                  <S d="287232" mobitv:s="279403637"/>
+                  <S d="288768" mobitv:s="279403638"/>
+                  <S d="287232" mobitv:s="279403639"/>
+                  <S d="288768" mobitv:s="279403640"/>
+                  <S d="287232" mobitv:s="279403641"/>
+                  <S d="179712" mobitv:s="279403642"/>
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+         <InbandEventStream schemeIdUri="urn:mobitv:event" value="id3"/>
+      </AdaptationSet>
+   </Period>
+   <Period mobitv:publishTime="2023-02-15T00:45:04Z" start="PT465672H44M14.454S" id="P1138">
+      <AdaptationSet contentType="video" mimeType="video/mp4" mobitv:qualityLevel="SD" segmentAlignment="true" startWithSAP="1" par="16:9" minWidth="640" maxWidth="1280" minHeight="360" maxHeight="720" maxFrameRate="120/2">
+         <Accessibility schemeIdUri="urn:scte:dash:cc:cea-608:2015" value=""/>
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+         <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine: SD"/>
+         <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="Playready: SD"/>
+         <Representation id="V2200_W" codecs="avc1.4d401f" bandwidth="2384800" mobitv:average-bandwidth="0" mobitv:peak-bandwidth="0" width="960" height="540" frameRate="60/2" sar="1:1">
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="90000" presentationTimeOffset="150877967016000">
+               <SegmentTimeline>
+                  <S t="150877967016000" d="744000" mobitv:s="279403643"/>
+                  <S r="6" d="540000" mobitv:s="279403644"/>
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+         <Representation id="V5000_W" codecs="avc1.640028" bandwidth="5120000" mobitv:average-bandwidth="0" mobitv:peak-bandwidth="0" width="1280" height="720" frameRate="120/2" sar="1:1">
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="90000" presentationTimeOffset="150877967016000">
+               <SegmentTimeline>
+                  <S t="150877967017500" d="744000" mobitv:s="279403643"/>
+                  <S r="6" d="540000" mobitv:s="279403644"/>
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+         <Representation id="V864_W" codecs="avc1.4d401e" bandwidth="884736" mobitv:average-bandwidth="0" mobitv:peak-bandwidth="0" width="640" height="360" frameRate="60/2" sar="1:1">
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="90000" presentationTimeOffset="150877967016000">
+               <SegmentTimeline>
+                  <S t="150877967016000" d="744000" mobitv:s="279403643"/>
+                  <S r="6" d="540000" mobitv:s="279403644"/>
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+      </AdaptationSet>
+      <AdaptationSet contentType="audio" mimeType="audio/mp4" lang="eng" mobitv:qualityLevel="SD" segmentAlignment="true" startWithSAP="1">
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+         <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine: SD"/>
+         <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="Playready: SD"/>
+         <Representation id="A96_ENG" codecs="mp4a.40.5" bandwidth="98304" mobitv:average-bandwidth="0" mobitv:peak-bandwidth="0" audioSamplingRate="48000">
+            <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="24000" presentationTimeOffset="40234124537824">
+               <SegmentTimeline>
+                  <S t="40234124537824" d="198656" mobitv:s="279403643"/>
+                  <S d="143360" mobitv:s="279403644"/>
+                  <S d="144384" mobitv:s="279403645"/>
+                  <S d="143360" mobitv:s="279403646"/>
+                  <S r="1" d="144384" mobitv:s="279403647"/>
+                  <S d="143360" mobitv:s="279403649"/>
+                  <S d="144384" mobitv:s="279403650"/>
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+         <InbandEventStream schemeIdUri="urn:mobitv:event" value="id3"/>
+      </AdaptationSet>
+      <AdaptationSet contentType="audio" mimeType="audio/mp4" lang="eng" mobitv:qualityLevel="SD" segmentAlignment="true" startWithSAP="1">
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+         <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine: SD"/>
+         <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="Playready: SD"/>
+         <Representation id="A384_ENG" codecs="ac-3" bandwidth="384000" mobitv:average-bandwidth="0" mobitv:peak-bandwidth="0" audioSamplingRate="48000">
+            <AudioChannelConfiguration schemeIdUri="tag:dolby.com,2014:dash:audio_channel_configuration:2011" value="F801"/>
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="48000" presentationTimeOffset="80468249075360">
+               <SegmentTimeline>
+                  <S t="80468249075360" d="396288" mobitv:s="279403643"/>
+                  <S d="288768" mobitv:s="279403644"/>
+                  <S d="287232" mobitv:s="279403645"/>
+                  <S d="288768" mobitv:s="279403646"/>
+                  <S d="287232" mobitv:s="279403647"/>
+                  <S d="288768" mobitv:s="279403648"/>
+                  <S d="287232" mobitv:s="279403649"/>
+                  <S d="288768" mobitv:s="279403650"/>
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+         <InbandEventStream schemeIdUri="urn:mobitv:event" value="id3"/>
+      </AdaptationSet>
+   </Period>
+</MPD>
