@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" xmlns:scte35="urn:scte:scte35:2014:xml+bin" profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:com:dashif:dash264,http://dashif.org/guidelines/adin/app" maxSegmentDuration="PT9S" minBufferTime="PT2S" type="dynamic" timeShiftBufferDepth="PT20M" minimumUpdatePeriod="PT9S" availabilityStartTime="1970-01-01T00:00:22Z" suggestedPresentationDelay="PT12S" id="5107" publishTime="2023-02-15T00:45:04Z">
+   <Period start="PT465672H20M32.557S" id="P1136">
+      <AdaptationSet contentType="video" mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" par="16:9" minWidth="640" maxWidth="1280" minHeight="360" maxHeight="720" maxFrameRate="120/2">
+         <Accessibility schemeIdUri="urn:scte:dash:cc:cea-608:2015" value=""/>
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+         <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine: SD"/>
+         <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="Playready: SD"/>
+         <Representation id="V2200_W" codecs="avc1.4d401f" bandwidth="2384800" width="960" height="540" frameRate="60/2" sar="1:1">
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="90000" presentationTimeOffset="150877839045000">
+               <SegmentTimeline>
+                  <S t="150877863000000" r="51" d="540000" />
+                  <S d="609000"/>
+                  <S d="471000"/>
+                  <S r="2" d="540000"/>
+                  <S d="612000"/>
+                  <S d="468000"/>
+                  <S r="32" d="540000"/>
+                  <S d="615000"/>
+                  <S d="465000"/>
+                  <S r="82" d="540000"/>
+                  <S d="333000"/>
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+         <Representation id="V5000_W" codecs="avc1.640028" bandwidth="5120000" width="1280" height="720" frameRate="120/2" sar="1:1">
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="90000" presentationTimeOffset="150877839045000">
+               <SegmentTimeline>
+                  <S t="150877863001500" r="51" d="540000"/>
+                  <S d="607500"/>
+                  <S d="472500"/>
+                  <S r="2" d="540000"/>
+                  <S d="610500"/>
+                  <S d="469500"/>
+                  <S r="32" d="540000"/>
+                  <S d="613500"/>
+                  <S d="466500"/>
+                  <S r="82" d="540000"/>
+                  <S d="333000"/>
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+         <Representation id="V864_W" codecs="avc1.4d401e" bandwidth="884736" width="640" height="360" frameRate="60/2" sar="1:1">
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="90000" presentationTimeOffset="150877839045000">
+               <SegmentTimeline>
+                  <S t="150877863000000" r="51" d="540000"/>
+                  <S d="609000"/>
+                  <S d="471000"/>
+                  <S r="2" d="540000"/>
+                  <S d="612000"/>
+                  <S d="468000"/>
+                  <S r="32" d="540000"/>
+                  <S d="615000"/>
+                  <S d="465000"/>
+                  <S r="82" d="540000"/>
+                  <S d="333000"/>
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+      </AdaptationSet>
+      <AdaptationSet contentType="audio" mimeType="audio/mp4" lang="eng" segmentAlignment="true" startWithSAP="1">
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+         <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine: SD"/>
+         <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="Playready: SD"/>
+         <Representation id="A96_ENG" codecs="mp4a.40.5" bandwidth="98304" audioSamplingRate="48000">
+            <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="24000" presentationTimeOffset="40234090412000">
+               <SegmentTimeline>
+                  <S t="40234096799712" r="1" d="144384" />
+                  <S d="143360"/>
+                  <S d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S d="144384"/>
+                  <S d="161792"/>
+                  <S d="125952"/>
+                  <S d="144384"/>
+                  <S d="143360"/>
+                  <S d="144384"/>
+                  <S d="162816"/>
+                  <S d="124928"/>
+                  <S d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S d="144384"/>
+                  <S d="163840"/>
+                  <S d="123904"/>
+                  <S d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384"/>
+                  <S d="143360"/>
+                  <S d="144384"/>
+                  <S d="143360"/>
+                  <S r="1" d="144384" />
+                  <S d="143360" />
+                  <S r="1" d="144384" />
+                  <S d="143360" />
+                  <S d="144384" />
+                  <S d="143360" />
+                  <S r="1" d="144384" />
+                  <S d="143360" />
+                  <S d="144384" />
+                  <S d="89088" />
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+         <InbandEventStream schemeIdUri="urn:mobitv:event" value="id3"/>
+      </AdaptationSet>
+      <AdaptationSet contentType="audio" mimeType="audio/mp4" lang="eng" segmentAlignment="true" startWithSAP="1">
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+         <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine: SD"/>
+         <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="Playready: SD"/>
+         <Representation id="A384_ENG" codecs="ac-3" bandwidth="384000" audioSamplingRate="48000">
+            <AudioChannelConfiguration schemeIdUri="tag:dolby.com,2014:dash:audio_channel_configuration:2011" value="F801"/>
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="48000" presentationTimeOffset="80468180824736">
+               <SegmentTimeline>
+                  <S t="80468193599648" d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="325632" />
+                  <S d="250368" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="325632" />
+                  <S d="250368" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="328704" />
+                  <S d="247296" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="176640" />
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+         <InbandEventStream schemeIdUri="urn:mobitv:event" value="id3"/>
+      </AdaptationSet>
+   </Period>
+   <Period start="PT465672H42M44.421S" id="P1137">
+      <EventStream schemeIdUri="urn:scte:scte35:2014:xml+bin" timescale="90000">
+         <Event id="1676421733" presentationTime="150877958915172" duration="8100000" >
+            <scte35:Signal>
+               <scte35:Binary>/DAlAAAAAAAAAP/wFAVj7Cplf+//AxGMTv4Ae5igAAAAAAAAESx/YA==</scte35:Binary>
+            </scte35:Signal>
+         </Event>
+      </EventStream>
+      <AdaptationSet contentType="video" mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" par="16:9" minWidth="640" maxWidth="1280" minHeight="360" maxHeight="720" maxFrameRate="120/2">
+         <Accessibility schemeIdUri="urn:scte:dash:cc:cea-608:2015" value=""/>
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+         <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine: SD"/>
+         <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="Playready: SD"/>
+         <Representation id="V2200_W" codecs="avc1.4d401f" bandwidth="2384800" width="960" height="540" frameRate="60/2" sar="1:1">
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="90000" presentationTimeOffset="150877958913000">
+               <SegmentTimeline>
+                  <S t="150877958913000" d="747000" />
+                  <S r="12" d="540000" />
+                  <S d="336000" />
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+         <Representation id="V5000_W" codecs="avc1.640028" bandwidth="5120000" width="1280" height="720" frameRate="120/2" sar="1:1">
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="90000" presentationTimeOffset="150877958913000">
+               <SegmentTimeline>
+                  <S t="150877958914500" d="747000" />
+                  <S r="12" d="540000" />
+                  <S d="336000" />
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+         <Representation id="V864_W" codecs="avc1.4d401e" bandwidth="884736" width="640" height="360" frameRate="60/2" sar="1:1">
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="90000" presentationTimeOffset="150877958913000">
+               <SegmentTimeline>
+                  <S t="150877958913000" d="747000" />
+                  <S r="12" d="540000" />
+                  <S d="336000" />
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+      </AdaptationSet>
+      <AdaptationSet contentType="audio" mimeType="audio/mp4" lang="eng" segmentAlignment="true" startWithSAP="1">
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+         <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine: SD"/>
+         <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="Playready: SD"/>
+         <Representation id="A96_ENG" codecs="mp4a.40.5" bandwidth="98304" audioSamplingRate="48000">
+            <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="24000" presentationTimeOffset="40234122377184">
+               <SegmentTimeline>
+                  <S t="40234122377184" d="198656" />
+                  <S d="144384" />
+                  <S d="143360" />
+                  <S r="1" d="144384" />
+                  <S d="143360" />
+                  <S r="1" d="144384" />
+                  <S d="143360" />
+                  <S d="144384" />
+                  <S d="143360" />
+                  <S r="1" d="144384" />
+                  <S d="143360" />
+                  <S d="90112" />
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+         <InbandEventStream schemeIdUri="urn:mobitv:event" value="id3"/>
+      </AdaptationSet>
+      <AdaptationSet contentType="audio" mimeType="audio/mp4" lang="eng" segmentAlignment="true" startWithSAP="1">
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+         <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine: SD"/>
+         <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="Playready: SD"/>
+         <Representation id="A384_ENG" codecs="ac-3" bandwidth="384000" audioSamplingRate="48000">
+            <AudioChannelConfiguration schemeIdUri="tag:dolby.com,2014:dash:audio_channel_configuration:2011" value="F801"/>
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="48000" presentationTimeOffset="80468244753056">
+               <SegmentTimeline>
+                  <S t="80468244753056" d="399360" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="179712" />
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+         <InbandEventStream schemeIdUri="urn:mobitv:event" value="id3"/>
+      </AdaptationSet>
+   </Period>
+   <Period start="PT465672H44M14.454S" id="P1138">
+      <AdaptationSet contentType="video" mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" par="16:9" minWidth="640" maxWidth="1280" minHeight="360" maxHeight="720" maxFrameRate="120/2">
+         <Accessibility schemeIdUri="urn:scte:dash:cc:cea-608:2015" value=""/>
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+         <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine: SD"/>
+         <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="Playready: SD"/>
+         <Representation id="V2200_W" codecs="avc1.4d401f" bandwidth="2384800" width="960" height="540" frameRate="60/2" sar="1:1">
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="90000" presentationTimeOffset="150877967016000">
+               <SegmentTimeline>
+                  <S t="150877967016000" d="744000" />
+                  <S r="6" d="540000" />
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+         <Representation id="V5000_W" codecs="avc1.640028" bandwidth="5120000" width="1280" height="720" frameRate="120/2" sar="1:1">
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="90000" presentationTimeOffset="150877967016000">
+               <SegmentTimeline>
+                  <S t="150877967017500" d="744000" />
+                  <S r="6" d="540000" />
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+         <Representation id="V864_W" codecs="avc1.4d401e" bandwidth="884736" width="640" height="360" frameRate="60/2" sar="1:1">
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="90000" presentationTimeOffset="150877967016000">
+               <SegmentTimeline>
+                  <S t="150877967016000" d="744000" />
+                  <S r="6" d="540000" />
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+      </AdaptationSet>
+      <AdaptationSet contentType="audio" mimeType="audio/mp4" lang="eng" segmentAlignment="true" startWithSAP="1">
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+         <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine: SD"/>
+         <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="Playready: SD"/>
+         <Representation id="A96_ENG" codecs="mp4a.40.5" bandwidth="98304" audioSamplingRate="48000">
+            <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="24000" presentationTimeOffset="40234124537824">
+               <SegmentTimeline>
+                  <S t="40234124537824" d="198656" />
+                  <S d="143360" />
+                  <S d="144384" />
+                  <S d="143360" />
+                  <S r="1" d="144384" />
+                  <S d="143360" />
+                  <S d="144384" />
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+         <InbandEventStream schemeIdUri="urn:mobitv:event" value="id3"/>
+      </AdaptationSet>
+      <AdaptationSet contentType="audio" mimeType="audio/mp4" lang="eng" segmentAlignment="true" startWithSAP="1">
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+         <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine: SD"/>
+         <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="Playready: SD"/>
+         <Representation id="A384_ENG" codecs="ac-3" bandwidth="384000" audioSamplingRate="48000">
+            <AudioChannelConfiguration schemeIdUri="tag:dolby.com,2014:dash:audio_channel_configuration:2011" value="F801"/>
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="48000" presentationTimeOffset="80468249075360">
+               <SegmentTimeline>
+                  <S t="80468249075360" d="396288" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+                  <S d="287232" />
+                  <S d="288768" />
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+         <InbandEventStream schemeIdUri="urn:mobitv:event" value="id3"/>
+      </AdaptationSet>
+   </Period>
+</MPD>
