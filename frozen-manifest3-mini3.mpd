@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2S" type="dynamic" timeShiftBufferDepth="PT20M" minimumUpdatePeriod="PT9S" availabilityStartTime="1970-01-01T00:00:22Z" suggestedPresentationDelay="PT12S" publishTime="2023-02-15T00:45:04Z">
+   <Period start="PT0S" id="P1136">
+      <AdaptationSet contentType="video" mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" par="16:9" minWidth="640" maxWidth="1280" minHeight="360" maxHeight="720" maxFrameRate="120/2">
+         <Accessibility schemeIdUri="urn:scte:dash:cc:cea-608:2015" value=""/>
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+         <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine: SD"/>
+         <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="Playready: SD"/>
+         <Representation id="V864_W" codecs="avc1.4d401e" bandwidth="884736" width="640" height="360" frameRate="60/2" sar="1:1">
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/segtimeline=true,$Time$.m4s" timescale="90000" presentationTimeOffset="150877839045000">
+               <SegmentTimeline>
+                  <S t="150877863000000" r="51" d="540000"/>
+                  <S d="609000"/>
+                  <S d="471000"/>
+                  <S r="2" d="540000"/>
+                  <S d="612000"/>
+                  <S d="468000"/>
+                  <S r="32" d="540000"/>
+                  <S d="615000"/>
+                  <S d="465000"/>
+                  <S r="82" d="540000"/>
+                  <S d="333000"/>
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+      </AdaptationSet>
+   </Period>
+</MPD>
