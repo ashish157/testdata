@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" xmlns:scte35="urn:scte:scte35:2014:xml+bin" profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:com:dashif:dash264,http://dashif.org/guidelines/adin/app" maxSegmentDuration="PT6S" minBufferTime="PT2S" type="static" mediaPresentationDuration="PT1M02S">
+   <Period id="16" start="PT0S">
+      <AdaptationSet contentType="video" mimeType="video/mp4" lang="video/mp4" segmentAlignment="true" startWithSAP="1">
+         <Accessibility schemeIdUri="urn:scte:dash:cc:cea-608:2015" value=""/>
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+         <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine: SD"/>
+         <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="Playready: SD"/>
+         <Representation id="V2200_W" codecs="avc1.4d401e" bandwidth="2384800" width="640" height="360" frameRate="60/2" sar="1:1" scanType="progressive">
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/$Number$.m4s" timescale="90000" startNumber="279284571" presentationTimeOffset="150813668343000">
+               <SegmentTimeline>
+                  <S t="150813668343000" r="1" d="540000" />
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+      </AdaptationSet>
+      <AdaptationSet contentType="audio" mimeType="audio/mp4" lang="eng" segmentAlignment="true" startWithSAP="1">
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+         <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine: SD"/>
+         <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="Playready: SD"/>
+         <Representation id="A384_ENG" codecs="ac-3" bandwidth="384000" audioSamplingRate="48000">
+            <AudioChannelConfiguration schemeIdUri="tag:dolby.com,2014:dash:audio_channel_configuration:2011" value="F801"/>
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/$Number$.m4s" timescale="48000" startNumber="279284571" presentationTimeOffset="80433956447248">
+               <SegmentTimeline>
+                  <S t="80433956447248" d="288768" />
+                  <S d="287232"/>
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+      </AdaptationSet>
+   </Period>
+   <Period id="P17-Ad0" start="PT12S">
+      <AdaptationSet contentType="video" mimeType="video/mp4" lang="video/mp4" segmentAlignment="true" startWithSAP="1" par="16:9">
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+         <Representation id="V2200_W_EXT_CO10156484_CLIP" codecs="avc1.64001f" bandwidth="1873531" width="1280" height="720" frameRate="90000/3000" sar="1:1">
+		 <SegmentTemplate initialization="V2200_W/$RepresentationID$/init.mp4" media="V2200_W/$RepresentationID$/$Number$.m4s" timescale="90000" startNumber="1" >
+               <SegmentTimeline>
+		       <S t="0" d="540000"/>
+            <S t="540000" d="627000"/>
+            <S t="1167000" d="561000"/>
+            <S t="1728000" d="597000"/>
+            <S t="2325000" d="375000"/>
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+      </AdaptationSet>
+      <AdaptationSet contentType="audio" mimeType="audio/mp4" lang="eng" segmentAlignment="true" startWithSAP="1">
+         <Representation id="A384_ENG_EXT_CO10156484_CLIP" codecs="ac-3" bandwidth="450850" audioSamplingRate="48000">
+	    <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="3"/>
+	    <SegmentTemplate initialization="A384_ENG/$RepresentationID$/init.mp4" media="A384_ENG/$RepresentationID$/$Number$.m4s" timescale="48000" startNumber="1" >
+               <SegmentTimeline>
+		       <S t="0" d="288768"/>
+            <S t="288768" d="287232"/>
+            <S t="576000" d="288768"/>
+            <S t="864768" d="287232"/>
+            <S t="1152000" d="288768"/>
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+      </AdaptationSet>
+   </Period>
+   <Period id="18" start="PT42S">
+      <AdaptationSet contentType="video" mimeType="video/mp4" lang="video/mp4" segmentAlignment="true" startWithSAP="1">
+         <Accessibility schemeIdUri="urn:scte:dash:cc:cea-608:2015" value=""/>
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+         <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine: SD"/>
+         <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="Playready: SD"/>
+         <Representation id="V2200_W" codecs="avc1.4d401e" bandwidth="2384800" width="640" height="360" frameRate="60/2" sar="1:1">
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/$Number$.m4s" timescale="90000" startNumber="279284583" presentationTimeOffset="150813674823000">
+               <SegmentTimeline>
+                  <S t="150813674823000" r="1" d="540000"/>
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+      </AdaptationSet>
+      <AdaptationSet contentType="audio" mimeType="audio/mp4" lang="eng" segmentAlignment="true" startWithSAP="1">
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+         <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+         <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine: SD"/>
+         <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="Playready: SD"/>
+         <Representation id="A384_ENG" codecs="ac-3" bandwidth="384000" audioSamplingRate="48000">
+            <AudioChannelConfiguration schemeIdUri="tag:dolby.com,2014:dash:audio_channel_configuration:2011" value="F801"/>
+            <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/$Number$.m4s" timescale="48000" startNumber="279284583" presentationTimeOffset="80433959903248">
+               <SegmentTimeline>
+                  <S t="80433959903248" d="288768"/>
+                  <S d="287232"/>
+               </SegmentTimeline>
+            </SegmentTemplate>
+         </Representation>
+      </AdaptationSet>
+   </Period>
+</MPD>
